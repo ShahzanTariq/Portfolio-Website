@@ -11,11 +11,12 @@ html {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #4A4A4A;
+    background-color: #FAFAFA;
 }
 
 header {
-    background-color: #fff;
+    background-color: #FEFCF7;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: fixed;
     top: 0;
@@ -40,13 +41,13 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #6B6B6B;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #3498db;
+    color: #D4A373;
 }
 
 main {
@@ -64,8 +65,8 @@ section {
 }
 
 #hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg, #F8F8F8 0%, #F0F0F0 100%);
+    color: #4A4A4A;
     text-align: center;
     height: 100vh;
     padding: 0;
@@ -93,7 +94,7 @@ section {
 }
 
 #about {
-    background-color: #f8f9fa;
+    background-color: #F8F8F8;
 }
 
 #about h2,
@@ -103,7 +104,7 @@ section {
     text-align: center;
     margin-bottom: 3rem;
     font-size: 2.5rem;
-    color: #2c3e50;
+    color: #6B6B6B;
 }
 
 .skills-grid {
@@ -114,15 +115,16 @@ section {
 }
 
 .skill-category {
-    background: white;
+    background: #FEFCF7;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     text-align: center;
+    border-left: 4px solid #D4A373;
 }
 
 .skill-category h3 {
-    color: #2c3e50;
+    color: #6B6B6B;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
@@ -144,11 +146,12 @@ section {
 }
 
 .project-card {
-    background: white;
+    background: #FEFCF7;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 4px solid #CCD5AE;
 }
 
 .project-card:hover {
@@ -157,7 +160,7 @@ section {
 }
 
 .project-card h3 {
-    color: #2c3e50;
+    color: #6B6B6B;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
@@ -176,7 +179,7 @@ section {
 .btn {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background-color: #3498db;
+    background-color: #D4A373;
     color: white;
     text-decoration: none;
     border-radius: 4px;
@@ -187,11 +190,11 @@ section {
 }
 
 .btn:hover {
-    background-color: #2980b9;
+    background-color: #C19958;
 }
 
 #contact {
-    background-color: #f8f9fa;
+    background-color: #F8F8F8;
 }
 
 .contact-content {
@@ -208,7 +211,7 @@ section {
 }
 
 .contact-item h3 {
-    color: #2c3e50;
+    color: #6B6B6B;
     margin-bottom: 0.5rem;
 }
 
@@ -217,7 +220,7 @@ section {
 }
 
 .contact-item a {
-    color: #3498db;
+    color: #D4A373;
     text-decoration: none;
 }
 
@@ -243,11 +246,11 @@ section {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: #3498db;
+    border-color: #D4A373;
 }
 
 footer {
-    background-color: #2c3e50;
+    background-color: #6B6B6B;
     color: white;
     text-align: center;
     padding: 2rem 0;
