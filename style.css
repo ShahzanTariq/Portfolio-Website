@@ -25,17 +25,11 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem 5%;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.logo h2 {
-    color: #2c3e50;
-    font-size: 1.5rem;
-    font-weight: 600;
 }
 
 .nav-links {
@@ -77,9 +71,16 @@ section {
 }
 
 .hero-content h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
     margin-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 400;
+    opacity: 0.9;
 }
 
 .hero-content p {
