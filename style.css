@@ -26,11 +26,19 @@ header {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.logo-text {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #D4A373;
+    letter-spacing: 0.1em;
 }
 
 .nav-links {
