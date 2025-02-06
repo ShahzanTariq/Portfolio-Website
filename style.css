@@ -48,6 +48,12 @@ nav {
     font-weight: 600;
     color: #D4A373;
     letter-spacing: 0.1em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logo-text:hover {
+    color: #8B6F3A;
 }
 
 
@@ -417,6 +423,10 @@ footer p {
 
 [data-theme="dark"] .logo-text {
     color: #ff8c42;
+}
+
+[data-theme="dark"] .logo-text:hover {
+    color: #ffcc99;
 }
 
 [data-theme="dark"] .nav-links a {
