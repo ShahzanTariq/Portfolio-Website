@@ -225,13 +225,27 @@ section.visible {
     font-weight: 500;
 }
 
-.skill-category ul {
-    list-style: none;
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1rem;
 }
 
-.skill-category li {
-    padding: 0.5rem 0;
-    color: #666;
+.skill-tag {
+    background-color: rgba(139, 111, 58, 0.1);
+    color: #8B6F3A;
+    padding: 0.4rem 1rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+    background-color: rgba(139, 111, 58, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(139, 111, 58, 0.15);
 }
 
 .projects-grid {
@@ -520,8 +534,14 @@ footer p {
     color: #e0e0e0;
 }
 
-[data-theme="dark"] .skill-category li {
-    color: #b0b0b0;
+[data-theme="dark"] .skill-tag {
+    background-color: rgba(255, 204, 153, 0.1);
+    color: #ffcc99;
+}
+
+[data-theme="dark"] .skill-tag:hover {
+    background-color: rgba(255, 204, 153, 0.2);
+    box-shadow: 0 4px 8px rgba(255, 204, 153, 0.15);
 }
 
 [data-theme="dark"] .project-card {
