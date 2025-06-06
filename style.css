@@ -250,6 +250,7 @@ section.visible {
     border-left: 4px solid #CCD5AE;
     opacity: 0;
     transform: translateY(20px);
+    position: relative;
 }
 
 .project-card.visible {
@@ -280,9 +281,47 @@ section.visible {
     line-height: 1.6;
 }
 
-.project-links {
+.github-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #7A7A7A;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 0.5rem;
+    border-radius: 50%;
     display: flex;
-    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.github-icon:hover {
+    color: #D4A373;
+    transform: scale(1.1);
+    background-color: rgba(212, 163, 115, 0.1);
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tech-tag {
+    background-color: rgba(212, 163, 115, 0.1);
+    color: #8B6F3A;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid rgba(212, 163, 115, 0.3);
+    transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+    background-color: rgba(212, 163, 115, 0.2);
+    transform: translateY(-1px);
 }
 
 .btn {
@@ -488,6 +527,25 @@ footer p {
 [data-theme="dark"] .project-card {
     background: #333333;
     border-left: 4px solid #66d9a8;
+}
+
+[data-theme="dark"] .github-icon {
+    color: #b0b0b0;
+}
+
+[data-theme="dark"] .github-icon:hover {
+    color: #ff8c42;
+    background-color: rgba(255, 140, 66, 0.1);
+}
+
+[data-theme="dark"] .tech-tag {
+    background-color: rgba(255, 140, 66, 0.1);
+    color: #ffcc99;
+    border: 1px solid rgba(255, 140, 66, 0.3);
+}
+
+[data-theme="dark"] .tech-tag:hover {
+    background-color: rgba(255, 140, 66, 0.2);
 }
 
 [data-theme="dark"] .project-card h3 {
