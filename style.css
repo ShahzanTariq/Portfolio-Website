@@ -177,6 +177,20 @@ section.visible {
     background: transparent;
 }
 
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #666;
+    text-align: justify;
+}
+
 #about h2,
 #skills h2,
 #projects h2,
@@ -516,6 +530,10 @@ footer p {
 
 [data-theme="dark"] #about {
     background: transparent;
+}
+
+[data-theme="dark"] .about-content p {
+    color: #b0b0b0;
 }
 
 [data-theme="dark"] #about h2,
